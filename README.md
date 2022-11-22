@@ -8,7 +8,15 @@ This is the repository of my personal website. It is based on the infamous Kirby
 * *Very* lightweight, only few additional resources (mainly css), few optimized images
 * The website scores above average on https://webbkoll.dataskydd.net/ (no cookies, no 3rd party requests)
 * As secure as possible (while still allowing loading some stuff)
+* I would like to have at least _some_ statistics
 
 ## Nice to have
 
 * Deploy from github (is that possible)?
+
+## Content
+
+* Continue to maintain and publish articles in the form of a blog
+* Offer RSS to flank my blog articles
+* Offer a blogroll that point to inspiring content
+* Offer irregular podcast content
