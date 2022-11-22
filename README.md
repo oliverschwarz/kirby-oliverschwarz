@@ -8,3 +8,7 @@ This is the repository of my personal website. It is based on the infamous Kirby
 * *Very* lightweight, only few additional resources (mainly css), few optimized images
 * The website scores above average on https://webbkoll.dataskydd.net/ (no cookies, no 3rd party requests)
 * As secure as possible (while still allowing loading some stuff)
+
+## Nice to have
+
+* Deploy from github (is that possible)?
