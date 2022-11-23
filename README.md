@@ -20,3 +20,12 @@ This is the repository of my personal website. It is based on the infamous Kirby
 * Offer RSS to flank my blog articles
 * Offer a blogroll that point to inspiring content
 * Offer irregular podcast content
+
+## Inspiration
+
+* https://neu-gierig.fm
+* https://bastianallgeier.com
+* https://helloanselm.com
+* https://drublic.de
+* https://marcthiele.com
+* https://spielundzeug.com
