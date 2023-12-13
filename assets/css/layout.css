@@ -88,6 +88,10 @@ a:visited {
   color: var(--color-indigo-dye);
 }
 
+h1 {
+  margin-top: 2rem;
+}
+
 /* micro-clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before,
 .cf:after {
@@ -198,6 +202,10 @@ article.single aside {
 @media screen and (min-width: 600px) {
   body, html {
     font-size: 1.2em;
+  }
+  h1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   }
 }
 
