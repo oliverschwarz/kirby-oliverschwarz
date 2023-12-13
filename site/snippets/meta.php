@@ -13,6 +13,7 @@
   <link href="http://xing.to/oschwarz" rel="me">
   <link href="https://twitter.com/oliverschwarz" rel="me">
   <link href="https://github.com/oliverschwarz" rel="me">
+  <link href="https://mastodon.social/@oliverschwarz" rel="me">
 
 <?php if ($page->isHomePage()): ?>
 
