@@ -1,6 +1,6 @@
 # oliverschwarz-kirby
 
-This is a repository to host my personal website backend based on the cm system Kirby 3. It contains the templates and chunks that I need in the backend to run the site.
+This is a repository to host my the custom adjustments for my personal website backend based on the cm system Kirby 4. It contains the templates and chunks that I need in the backend to run the site.
 
 ## Structure
 
@@ -23,8 +23,10 @@ Putting it all together will be a little bit of a manual thing for the time bein
 
 * https://getkirby.com
 * https://necolas.github.io/normalize.css/
-* https://oliverschwarz.info
-* https://github.com/googlefonts/NunitoSans
+
+## Kirby Plugins used
+
+* https://github.com/bnomei/kirby3-feed
 
 ## Kirby tutorial
 
