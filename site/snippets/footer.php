@@ -4,7 +4,7 @@
 
     <?php snippet('menu'); ?>
 
-    <p class="footnote"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, Oliver Schwarz, <?php echo date('Y'); ?></p>
+    <p class="footnote"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, <a href="<?php echo $site->url(); ?>" class="h-card" rel="me">Oliver Schwarz</a>, <?php echo date('Y'); ?></p>
 
   </footer>
 
