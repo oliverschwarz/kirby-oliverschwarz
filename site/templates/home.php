@@ -20,8 +20,8 @@
       <h2>Latest articles</h2>
       <ul>
 <?php $articles = page('articles')->children()->listed()->flip()->limit(3); foreach ($articles as $article): ?>
-        <li>
-          <h3><a href="<?php echo $article->url(); ?>"><?php echo $article->title()->html(); ?></a></h3>
+        <li class="h-entry">
+          <h3 class="e-content p-name"><a href="<?php echo $article->url(); ?>" class="u-url"><?php echo $article->title()->html(); ?></a></h3>
           <p><?php echo $article->text()->excerpt(150) ?> &rarr; <a href="<?php echo $article->url(); ?>">read on!</a></p>
         </li>
 <?php endforeach; ?>
