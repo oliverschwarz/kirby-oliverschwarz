@@ -17,6 +17,7 @@ Icon
 *.sublime-workspace
 /.vscode
 /.idea
+*.code-workspace
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
