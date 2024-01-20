@@ -22,7 +22,7 @@
 <?php $articles = page('articles')->children()->listed()->flip()->limit(3); foreach ($articles as $article): ?>
         <li class="h-entry">
           <h3 class="e-content p-name"><a href="<?php echo $article->url(); ?>" class="u-url"><?php echo $article->title()->html(); ?></a></h3>
-          <p><?php echo $article->text()->excerpt(150) ?> &rarr; <a href="<?php echo $article->url(); ?>">read on!</a></p>
+          <p><time datetime="<?php echo $article->date()->toDate('c') ?>" pubdate><?php echo $article->date()->toDate('d.m.y'); ?></time> &ndash; <?php echo $article->text()->excerpt(150) ?> &rarr; <a href="<?php echo $article->url(); ?>">read on!</a></p>
         </li>
 <?php endforeach; ?>
       </ul>

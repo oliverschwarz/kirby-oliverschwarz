@@ -42,6 +42,7 @@ https://coolors.co/0d1821-344966-e6aace-f0f4ef-bfcc94
   --color-prussian-blue:    #233043;
   --color-lavender-pink:    #E6AACE;
   --color-light-grey:       #999;
+  --color-light-brown:      #A18A67;
   --color-baby-powder:      #F0F4EF;
   --color-light-yellow:     #FFFF99;
   --color-sage:             #BFCC94;
@@ -142,6 +143,10 @@ h1 {
   line-height: 1.4;
 }
 
+time {
+  color: var(--color-light-brown);
+}
+
 /* Single article page
    ========================================================================== */
 
@@ -179,7 +184,7 @@ article.single aside {
   background-color: #eee;
   border-radius: .3em;
   margin: .2em .8em .2em 0;
-  padding: .2em .4em;  
+  padding: .2em .4em;
   text-decoration: none;
 }
 

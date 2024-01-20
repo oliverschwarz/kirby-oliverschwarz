@@ -12,8 +12,8 @@
     <article class="h-entry">
       <h2 class="e-content p-name"><a href="<?php echo $article->url(); ?>" class="u-url"><?php echo $article->title()->html(); ?></a></h2>
       <p>
-        <time datetime="<?php echo $article->date()->toDate('c'); ?>" class="dt-published" pubdate><?php echo $article->date()->toDate('j. M y'); ?></time>
-        <?php echo $article->text()->excerpt(100) ?> &rarr; <a href="<?php echo $article->url(); ?>">read on!</a>
+        <time datetime="<?php echo $article->date()->toDate('c'); ?>" pubdate><?php echo $article->date()->toDate('d.m.y'); ?></time> &ndash;
+        <?php echo $article->text()->excerpt(100); ?> &rarr; <a href="<?php echo $article->url(); ?>">read on!</a>
       </p>
     </article>
 
