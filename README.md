@@ -9,8 +9,11 @@ I am currently working on version 2 of the website layout. After almost 8 years 
 ## Goals for version 2
 
 * Even more minimalistic
-* Introduce tags and clean up and rework some of the content to ensure proper tagging
-* Adding a search
-* Changing startpage layout to always show the latest article
-* Have a more simple archive section
-* Highlight single pages on which I am working (like a digital garden)
+* Introduce tags
+* Introduce a search
+* Show latest article first
+* Move my info to 'about' section
+* More simple archive
+* Introduce a sitemap
+* Use more of the Kirby features
+* Introduce meta content (robots, human...)
