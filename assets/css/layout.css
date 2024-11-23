@@ -1,0 +1,241 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.7;
+    color: #111;
+    background: #fff;
+}
+
+/* Layout */
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    min-height: calc(100vh - 100px);
+}
+
+/* Navigation */
+header {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav a:hover {
+    color: #111;
+}
+
+/* Typography and Links */
+h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #111;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #111;
+    font-style: italic;
+    color: #444;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
+}
+
+/* Code blocks */
+pre {
+    background: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+code {
+    font-family: 'Menlo', 'Monaco', monospace;
+    font-size: 0.9em;
+}
+
+/* Inline code */
+code:not(pre code) {
+    background: #f7f7f7;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 4px;
+}
+
+/* Posts */
+.date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.category {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+/* Article previews */
+.article-preview {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #eee;
+}
+
+.article-preview:last-child {
+    border-bottom: none;
+}
+
+.article-preview h3 {
+    margin-top: 0;
+}
+
+.article-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #f7f7f7;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 780px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-section a:hover {
+    color: #111;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container { padding: 2rem 1rem; }
+    header { flex-direction: column; gap: 1rem; }
+    nav a { margin: 0 1rem; }
+    h1 { font-size: 2rem; }
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
