@@ -1,4 +1,11 @@
-<?php snippet('meta'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Tech Blog</title>
+</head>
+<body>
 
   <header class="content">
     <h1><?php echo $page->title()->html() ?></h1>
@@ -10,4 +17,5 @@
     </article>
   </main>
 
-<?php snippet('footer'); ?>
+</body>
+</html>
