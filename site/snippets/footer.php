@@ -13,25 +13,29 @@
     </section>
 
     <!-- Navigation sections -->
-    <div class="footer-sections">
-      <section>
+    <section class="footer-nav">
         <h3>Navigation</h3>
-        <ul>
-          <li><a href="<?= $site->url() ?>">Home</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Now</a></li>
-          <li><a href="">About</a></li>
-        </ul>
-      </section>
+        <div class="nav-columns">
+            <ul>
+                <li><a href="<?= $site->url() ?>">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Now</a></li>
+                <li><a href="">About</a></li>
+            </ul>
 
-      <section>
-        <h3>Pages</h3>
-        <ul>
-          <li><a href="">Imprint</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Use</a></li>
-        </ul>
-      </section>
-    </div>
+            <ul>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Photos</a></li>
+                <li><a href="">Books</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">Imprint</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
+        </div>
+    </section>
+
   </div>
 </footer>
