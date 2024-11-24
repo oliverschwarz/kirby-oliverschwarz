@@ -3,7 +3,7 @@
     <!-- Tags section -->
     <section class="footer-tags">
       <?php
-      $allTags = page('blog')->children()->listed()->pluck('tags', ',', true);
+      $allTags = page('articles')->children()->listed()->pluck('tags', ',', true);
       if (!empty($allTags)): ?>
         <h3>Tags</h3>
         <?php echo implode(', ', array_map(function($tag) {

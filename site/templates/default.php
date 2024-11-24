@@ -15,7 +15,7 @@
         <main>
 <?php
 
-$latest = page('blog')->children()->listed()->sortBy('date', 'desc')->first();
+$latest = page('articles')->children()->listed()->sortBy('date', 'desc')->first();
 
 if ($latest): ?>
             <article>
@@ -33,7 +33,7 @@ if ($latest): ?>
 
         <div class="container">  <!-- For max-width control -->
             <h2>Recent Articles</h2>
-<?php foreach(page('blog')->children()->listed()->sortBy('date', 'desc')->offset(1)->limit(3) as $article): ?>
+<?php foreach(page('articles')->children()->listed()->sortBy('date', 'desc')->offset(1)->limit(3) as $article): ?>
             <article>
                 <h2><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h2>
                 <time datetime="<?= $article->date()->toDate('c') ?>" class="date" pubdate><?= $article->date()->toDate('F d, Y') ?></time>
