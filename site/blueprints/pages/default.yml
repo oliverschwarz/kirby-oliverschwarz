@@ -16,5 +16,4 @@ columns:
         fields:
           images:
             label: Images
-            layout: cards
             type: files
