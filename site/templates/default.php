@@ -8,7 +8,9 @@
 
         <article>
             <h1><?=$page->title()?></h1>
-            <p>Default page</p>
+            <div class="single-page">
+                <p><?=$page->text()->kt()?></p>
+            </div>
         </article>
 
     </main>

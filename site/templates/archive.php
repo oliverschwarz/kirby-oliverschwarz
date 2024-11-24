@@ -17,7 +17,7 @@
     $pagination = $articles->pagination();
     ?>
 
-    <h1><?= $page->title() ?><?php if($tag): ?> tagged <?= html($tag) ?><?php endif ?></h1>
+    <h1>Articles<?php if($tag): ?> tagged <?= html($tag) ?><?php endif ?></h1>
 
     <div class="archive-list">
         <?php foreach($articles as $article): ?>
