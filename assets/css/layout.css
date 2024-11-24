@@ -2,6 +2,8 @@
 :root {
     --bg-color: #fff;
     --text-color: #111;
+    --logo-color: #111;
+    --text-color-light: #999;
     --link-color: #111;
     --link-hover: #555;
     --meta-color: #666;
@@ -16,11 +18,13 @@
     :root {
       --bg-color: #111;
       --text-color: #ddd;
+      --logo-color: #eee;
+      --text-color-light: #999;
       --link-color: #fff;
       --link-hover: #ccc;
       --meta-color: #999;
       --bg-secondary: #222;
-      --bg-tertiary: #111;
+      --bg-tertiary: #333;
       --border-color: #333;
       --code-bg: #1a1a1a;
     }
@@ -57,7 +61,7 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
-    color: #111;
+    color: var(--logo-color);
 }
 
 nav.main a {
@@ -70,7 +74,7 @@ nav.main a {
 }
 
 nav a:hover {
-    color: #111;
+    color: var(--link-hover);
 }
 
 /* Typography and Links */
@@ -198,7 +202,7 @@ img {
 /* Article previews */
 .recent-posts {
     background: var(--bg-secondary);
-    padding: 4rem 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -210,13 +214,13 @@ img {
     margin-bottom: 0;
 }
 
-.recent-posts h3 {
-    margin-top: 0;
-}
-
 .recent-posts h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .3rem;
+    font-weight: normal;
+    color: var(--text-color-light);
 }
 
 .recent-posts .date {
