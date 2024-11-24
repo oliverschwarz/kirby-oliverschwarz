@@ -29,7 +29,7 @@ if ($latest): ?>
             <h2>Recent Articles</h2>
 <?php foreach(page('articles')->children()->listed()->sortBy('date', 'desc')->offset(1)->limit(3) as $article): ?>
             <article>
-                <h2><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h2>
+                <h3><a href="<?= $article->url() ?>"><?= $article->title() ?></a></h3>
                 <time datetime="<?= $article->date()->toDate('c') ?>" class="date" pubdate><?= $article->date()->toDate('F d, Y') ?></time>
                 <?php snippet('tagline', ['page' => $article]) ?>
                 <p><?= $article->text()->excerpt(150) ?></p>
