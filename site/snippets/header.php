@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimal Tech Blog</title>
+    <title><?= $site->title()->html() ?></title>
 
     <meta name="referrer" content="no-referrer">
     <link rel="canonical" href="https://oliverschwarz.info">
