@@ -18,24 +18,30 @@
         <div class="nav-columns">
             <ul>
                 <li><a href="<?= $site->url() ?>">Home</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Now</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="<?= $site->url() ?>/archive">Articles</a></li>
+                <li><a href="<?= $site->url() ?>/about">About</a></li>
             </ul>
 
             <ul>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Photos</a></li>
-                <li><a href="">Books</a></li>
+                <li><a href="<?php echo $site->url(); ?>/feed/">RSS</a></li>
+                <li><a href="<?php echo $site->url(); ?>/blogroll/">Blogroll</a></li>
+                <li><a href="<?= $site->url() ?>/now">/now</a></li>
             </ul>
 
             <ul>
-                <li><a href="">Imprint</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Terms</a></li>
+                <li><a href="<?= $site->url() ?>/legal">Legal</a></li>
+                <li><a href="https://webbkoll.dataskydd.net/en/results?url=https%3A%2F%2Foliverschwarz.info%2F">Data privacy check</a></li>
             </ul>
         </div>
     </section>
 
   </div>
+
+    <section class="pageinfo">
+        <div class="container">
+            🍪 Cookie-free zone. Made with <a href="https://getkirby.com">Kirby</a> &amp; ❤️ -
+            <a href="https://github.com/oliverschwarz/kirby-oliverschwarz/">Source</a>
+        </div>
+    </section>
+
 </footer>
