@@ -33,10 +33,7 @@
     <?php if($pagination->hasPages()): ?>
     <nav class="pagination">
     <span>Pages: </span>
-    <?php for($i = 1; $i <= $pagination->pages(); $i++): ?>
-        <?php if($i > 1): ?>, <?php endif ?>
-        <a <?= $pagination->page() === $i ? 'class="active"' : '' ?> href="<?= $pagination->pageUrl($i) ?>"><?= $i ?></a>
-    <?php endfor ?>
+    <?php for($i = 1; $i <= $pagination->pages(); $i++): if($i > 1): ?>, <?php endif ?><a <?= $pagination->page() === $i ? 'class="active"' : '' ?> href="<?= $pagination->pageUrl($i) ?>"><?= $i ?></a><?php endfor ?>
     </nav>
     <?php endif ?>
 
