@@ -1,8 +1,20 @@
-title: Default Page
-preset: page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+title: Default page
 
+columns:
+  main:
+    width: 2/3
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: large
+  sidebar:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          images:
+            label: Images
+            layout: cards
+            type: files
