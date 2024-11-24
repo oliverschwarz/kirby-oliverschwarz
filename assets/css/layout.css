@@ -32,7 +32,7 @@ header {
     color: #111;
 }
 
-nav a {
+nav.main a {
     color: #999;
     text-decoration: none;
     margin-left: 2rem;
@@ -163,11 +163,8 @@ img {
     font-size: 0.9rem;
 }
 
-.category {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-    display: block;
+.article-content {
+    margin: 2rem 0;
 }
 
 /* Article previews */
@@ -203,6 +200,37 @@ img {
     margin-top: 1rem;
 }
 
+/* Articles archive */
+.archive {
+    margin: 0;
+}
+
+.archive article {
+    margin-bottom: 3rem;
+}
+
+.archive article:last-child {
+    margin-bottom: 0;
+}
+
+.archive h3 {
+    margin-top: 0;
+}
+
+.archive h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.archive .date {
+    font-size: 0.9rem;  /* Matching the size from featured article */
+}
+
+.archive article p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
 /* Footer */
 footer {
     background: #e5e5e5;
@@ -219,19 +247,34 @@ footer {
     margin-bottom: 1rem;
 }
 
-.footer-sections {
+.nav-columns {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.footer-sections ul {
+.nav-columns ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-sections li {
+.nav-columns li {
     margin-bottom: 0.5rem;
+}
+
+/* Pagination */
+.pagination {
+    margin: 2rem 0;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background: #000;
+    color: #fff;
+    padding: 2px 6px;
 }
 
 /* Responsive adjustments */
