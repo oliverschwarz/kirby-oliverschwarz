@@ -1,5 +1,7 @@
 <header>
-    <a href="/" class="logo">OS</a>
+    <a href="/" class="logo">
+        <img class="logo-img" src="assets/light-logo.png" alt="OS">
+    </a>
     <nav class="main">
         <a href="/">Home</a>
         <?php foreach ($site->children()->listed() as $item): ?>

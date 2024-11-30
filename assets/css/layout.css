@@ -62,10 +62,19 @@ header {
 }
 
 .logo {
-    font-size: 1.2rem;
-    font-weight: 600;
     text-decoration: none;
-    color: var(--logo-color);
+}
+
+.logo-img {
+    height: 4rem; /* Adjust this to match your desired logo size */
+    width: auto;
+    content: url("../logo-light.png");
+}
+
+@media (prefers-color-scheme: dark) {
+    .logo-img {
+        content: url("../logo-dark.webp");
+    }
 }
 
 nav.main a {
@@ -278,6 +287,14 @@ img {
 .archive h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+}
+
+.archive h2 a {
+    text-decoration: none;
+}
+
+.archive h2 a:hover {
+    text-decoration: underline;
 }
 
 .archive .date {
