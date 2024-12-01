@@ -1,6 +1,6 @@
 <header>
     <a href="/" class="logo">
-        <img class="logo-img" src="assets/light-logo.png" alt="OS">
+        <img class="logo-img" src="assets/logo-light.png" alt="OS">
     </a>
     <nav class="main">
         <a href="/">Home</a>
